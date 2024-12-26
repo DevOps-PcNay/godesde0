@@ -5,10 +5,10 @@ import (
 
 	//"fmt"
 	//"godesde0/Teclado"
-	//"godesde0/ejercicios"
+	"godesde0/ejercicios"
 	//"godesde0/variables"
 	//"runtime"
-	"godesde0/Iteraciones"
+	//"godesde0/Iteraciones"
 )
 
 //"fmt",
@@ -47,6 +47,9 @@ func main() {
 	*/
 
 	//Teclado.IngresoNumeros()
-	Iteraciones.Iterar()
+	//Iteraciones.Iterar()
+
+	// Pedir un valor desde el teclado
+	ejercicios.TablaMultiplicar()
 
 } // func main()

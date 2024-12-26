@@ -17,6 +17,7 @@ func IngresoNumeros() {
 
 	// Lee informacion del teclado, este paquete contiene mucha funciones para manejo de archivos.
 	// os.Stdin = Entrada por teclado.
+	// Es de tipo texto siempre.
 	teclado := bufio.NewScanner(os.Stdin)
 
 	fmt.Println("Ingrese numero 1 : ")
