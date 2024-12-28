@@ -5,10 +5,11 @@ import (
 
 	//"fmt"
 	//"godesde0/Teclado"
-	"godesde0/ejercicios"
+	//"godesde0/ejercicios"
 	//"godesde0/variables"
 	//"runtime"
 	//"godesde0/Iteraciones"
+	"godesde0/Files"
 )
 
 //"fmt",
@@ -50,6 +51,10 @@ func main() {
 	//Iteraciones.Iterar()
 
 	// Pedir un valor desde el teclado
-	ejercicios.TablaMultiplicar()
+	//fmt.Println(ejercicios.TablaMultiplicar())
+	//Files.GrabarTabla()
+	//Files.SumaTabla()
+	//Files.LeoArchivo()
+	Files.LeoArchivo2()
 
 } // func main()
