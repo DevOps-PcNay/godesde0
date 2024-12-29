@@ -9,7 +9,8 @@ import (
 	//"godesde0/variables"
 	//"runtime"
 	//"godesde0/Iteraciones"
-	"godesde0/Files"
+	//"godesde0/Files"
+	"godesde0/Funciones"
 )
 
 //"fmt",
@@ -55,6 +56,8 @@ func main() {
 	//Files.GrabarTabla()
 	//Files.SumaTabla()
 	//Files.LeoArchivo()
-	Files.LeoArchivo2()
+	//Files.LeoArchivo2()
+	//Funciones.Calculos()
+	Funciones.LlamarClosure()
 
 } // func main()
