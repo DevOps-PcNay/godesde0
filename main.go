@@ -10,7 +10,8 @@ import (
 	//"runtime"
 	//"godesde0/Iteraciones"
 	//"godesde0/Files"
-	"godesde0/Funciones"
+	//"godesde0/Funciones"
+	"godesde0/Arreglos_Slices"
 )
 
 //"fmt",
@@ -59,6 +60,9 @@ func main() {
 	//Files.LeoArchivo2()
 	//Funciones.Calculos()
 	//Funciones.LlamarClosure()
-	Funciones.Exponencia(3)
+	//Funciones.Exponencia(3)
+	//Arreglos_Slices.MuestraArreglos()
+	//Arreglos_Slices.MuestroSlices()
+	Arreglos_Slices.Capacidad()
 
 } // func main()
