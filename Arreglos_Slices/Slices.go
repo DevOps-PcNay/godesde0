@@ -13,7 +13,7 @@ func MuestroSlices() {
 	fmt.Println(tablaSlice)
 	porcion := arreglo[3:]   // Slices creado desde un arreglo, contenido desde posicion 3
 	porcion2 := arreglo[:5]  // Slices desde posicion 0 hasta 5
-	porcion3 := arreglo[6:7] // Slices desde posicion 6 hasta 9
+	porcion3 := arreglo[6:7] // Slices desde posicion 6 hasta 7
 	fmt.Println("Porcion ", porcion)
 	fmt.Println("Porcion2 ", porcion2)
 	fmt.Println("Porcion3 ", porcion3)

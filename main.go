@@ -1,18 +1,19 @@
 package main
 
-import (
-	// Export GOPATH = /var/www/html/soporte.my-empresa.com/github.com/DevOps-PcNay/godesde0
+import "godesde0/Mapas"
 
-	//"fmt"
-	//"godesde0/Teclado"
-	//"godesde0/ejercicios"
-	//"godesde0/variables"
-	//"runtime"
-	//"godesde0/Iteraciones"
-	//"godesde0/Files"
-	//"godesde0/Funciones"
-	"godesde0/Arreglos_Slices"
-)
+// Export GOPATH = /var/www/html/soporte.my-empresa.com/github.com/DevOps-PcNay/godesde0
+
+//"fmt"
+//"godesde0/Teclado"
+//"godesde0/ejercicios"
+//"godesde0/variables"
+//"runtime"
+//"godesde0/Iteraciones"
+//"godesde0/Files"
+//"godesde0/Funciones"
+// "godesde0/Arreglos_Slices"
+//"godesde0/Mapas"
 
 //"fmt",
 
@@ -63,6 +64,7 @@ func main() {
 	//Funciones.Exponencia(3)
 	//Arreglos_Slices.MuestraArreglos()
 	//Arreglos_Slices.MuestroSlices()
-	Arreglos_Slices.Capacidad()
+	//Arreglos_Slices.Capacidad()
+	Mapas.MostrarMapas()
 
 } // func main()
