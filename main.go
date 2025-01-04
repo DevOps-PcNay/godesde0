@@ -1,7 +1,5 @@
 package main
 
-import "godesde0/Mapas"
-
 // Export GOPATH = /var/www/html/soporte.my-empresa.com/github.com/DevOps-PcNay/godesde0
 
 //"fmt"
@@ -14,6 +12,9 @@ import "godesde0/Mapas"
 //"godesde0/Funciones"
 // "godesde0/Arreglos_Slices"
 //"godesde0/Mapas"
+import (
+	"godesde0/Users"
+)
 
 //"fmt",
 
@@ -65,6 +66,7 @@ func main() {
 	//Arreglos_Slices.MuestraArreglos()
 	//Arreglos_Slices.MuestroSlices()
 	//Arreglos_Slices.Capacidad()
-	Mapas.MostrarMapas()
+	//Mapas.MostrarMapas()
+	Users.AltaUsuario()
 
 } // func main()
