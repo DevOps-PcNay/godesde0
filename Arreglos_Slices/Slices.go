@@ -5,6 +5,7 @@ import (
 )
 
 // Slices = Es un arreglo que no se definen cuantos elementos.
+// Dimensiones y Capacidad , Capacidad = Es la reserva de memoria es mayor al que se desea.
 
 var tablaSlice []int = []int{2, 5, 4}
 var arreglo [10]int = [10]int{6, 98, 21, 674, 18, 36, 78}
@@ -20,14 +21,16 @@ func MuestroSlices() {
 }
 
 func Capacidad() {
+
 	// 5 Elementos y 20 de capacidad(espacio en memoria )
-	elementos := make([]int, 5, 20)
+	elementos := make([]int, 5, 20) // Crea un Slides
+
 	fmt.Printf("Largo %d, Capacidad %d \n ", len(elementos), cap(elementos))
 
 	nums := make([]int, 0, 0)
 
 	for i := 0; i < 100; i++ {
-		nums = append(nums, i)
+		nums = append(nums, i) // Agregar elementos a la lista.
 	}
 
 	fmt.Printf("Largo %d, Capacidad %d \n ", len(nums), cap(nums))

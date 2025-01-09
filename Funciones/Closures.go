@@ -5,6 +5,7 @@ import (
 )
 
 // Es un funcion locl solo se puede ver en este archivo(Clousers.go)
+// Devuelve una funcion anomina.
 func tabla(valor int) func() int {
 	numero := valor
 	secuencia := 0

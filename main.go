@@ -12,8 +12,10 @@ package main
 //"godesde0/Funciones"
 // "godesde0/Arreglos_Slices"
 //"godesde0/Mapas"
+// 	"godesde0/Users"
 import (
-	"godesde0/Users"
+	"godesde0/Ejer_Interfaces"
+	"godesde0/Modelos"
 )
 
 //"fmt",
@@ -67,6 +69,11 @@ func main() {
 	//Arreglos_Slices.MuestroSlices()
 	//Arreglos_Slices.Capacidad()
 	//Mapas.MostrarMapas()
-	Users.AltaUsuario()
+	//Users.AltaUsuario()
+	Pedro := new(Modelos.Hombre) // Esta instanciando el objeto, "Clase"
+	Ejer_Interfaces.HumanosRespirando(Pedro)
+
+	Maria := new(Modelos.Mujer)
+	Ejer_Interfaces.HumanosRespirando(Maria)
 
 } // func main()
