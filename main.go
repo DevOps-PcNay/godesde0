@@ -14,8 +14,9 @@ package main
 //"godesde0/Mapas"
 // 	"godesde0/Users"
 import (
-	"godesde0/Ejer_Interfaces"
-	"godesde0/Modelos"
+	//"godesde0/Ejer_Interfaces"
+	//"godesde0/Modelos"
+	"godesde0/Defer_panic"
 )
 
 //"fmt",
@@ -70,10 +71,14 @@ func main() {
 	//Arreglos_Slices.Capacidad()
 	//Mapas.MostrarMapas()
 	//Users.AltaUsuario()
-	Pedro := new(Modelos.Hombre) // Esta instanciando el objeto, "Clase"
-	Ejer_Interfaces.HumanosRespirando(Pedro)
+	/*
+		Pedro := new(Modelos.Hombre) // Esta instanciando el objeto, "Clase"
+		Ejer_Interfaces.HumanosRespirando(Pedro)
 
-	Maria := new(Modelos.Mujer)
-	Ejer_Interfaces.HumanosRespirando(Maria)
+		Maria := new(Modelos.Mujer)
+		Ejer_Interfaces.HumanosRespirando(Maria)
+	*/
+	//Defer_panic.VemosDefer()
+	Defer_panic.EjemploPanic()
 
 } // func main()

@@ -21,5 +21,5 @@ func (h *Hombre) Respirar() {
 // Puede ser en una sola linea, ya que es solo una instruccion.
 func (h *Hombre) Comer()         { h.comiendo = true }
 func (h *Hombre) Pensar()        { h.pensando = true }
-func (h *Hombre) EstaVivo() bool { h.vivo = true }
+//func (h *Hombre) EstaVivo() { h.vivo = true }
 func (h *Hombre) Sexo() string   { return "Hombre" }
