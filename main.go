@@ -17,8 +17,10 @@ import (
 	//"godesde0/Ejer_Interfaces"
 	//"godesde0/Modelos"
 	//"godesde0/Defer_panic"
-	"fmt"
-	"godesde0/Goroutines"
+	//"fmt"
+	//"godesde0/Goroutines"
+	//"godesde0/WebServer"
+	"godesde0/Middleware"
 )
 
 //"fmt",
@@ -91,18 +93,22 @@ func main() {
 	// Por lo que se tiene que tener cuidado la ejecucion de este programa.
 	// Se utilizan mucho en operaciones muy pesadas que se ejecuten en 2do plano y ejecutando otras instruccions, pero se debe terner cuidado en verificar que se terminen la Go routines.
 
-	canal1 := make(chan bool)
-	go Goroutines.MiNombreLentoo("Ramon Ortega", canal1)
+	/*
+		canal1 := make(chan bool)
+		go Goroutines.MiNombreLentoo("Ramon Ortega", canal1)
 
-	// Esta esperando que se oprima una tecla, pero se esta ejecutado en el segundo plano en desplegar las letras de los nombres cada 1 seg., hasta que se oprima una tecla y Enter.
+		// Esta esperando que se oprima una tecla, pero se esta ejecutado en el segundo plano en desplegar las letras de los nombres cada 1 seg., hasta que se oprima una tecla y Enter.
 
-	// Al llegar a esta linea ya asigno el valor de "canal1 = true", ya termino el ciclo "for".
+		// Al llegar a esta linea ya asigno el valor de "canal1 = true", ya termino el ciclo "for".
 
-	// Ahora utilizando el "defer" con una funcion anomima
-	defer func() {
-		<-canal1 // <-canal1 // await de como se usa en NodeJs
-		// Se pueden agregar mas canales y no termina la ejecucion del programa hasta que se complete los canales
-	}()
-	fmt.Println("Aun estoy ejecutando la funcion -MiNombreLentoo- ")
+		// Ahora utilizando el "defer" con una funcion anomima
+		defer func() {
+			<-canal1 // <-canal1 // await de como se usa en NodeJs
+			// Se pueden agregar mas canales y no termina la ejecucion del programa hasta que se complete los canales
+		}()
+		fmt.Println("Aun estoy ejecutando la funcion -MiNombreLentoo- ")
+	*/
+	// WebServer.MiWebServer()
+	Middleware.MiMiddleware()
 
 } // func main()
