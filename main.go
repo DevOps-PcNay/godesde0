@@ -19,8 +19,8 @@ import (
 	//"godesde0/Defer_panic"
 	//"fmt"
 	//"godesde0/Goroutines"
-	//"godesde0/WebServer"
-	"godesde0/Middleware"
+	"godesde0/WebServer"
+	//"godesde0/Middleware"
 )
 
 //"fmt",
@@ -108,7 +108,7 @@ func main() {
 		}()
 		fmt.Println("Aun estoy ejecutando la funcion -MiNombreLentoo- ")
 	*/
-	// WebServer.MiWebServer()
-	Middleware.MiMiddleware()
+	 WebServer.MiWebServer()
+	//Middleware.MiMiddleware()
 
 } // func main()
